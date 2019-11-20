@@ -1,0 +1,19 @@
+{
+    "historias":[
+        {
+            "id": 1,
+            "name": "Javier Herrero",
+            "text": "Este es el texto que ha puesto Javier Herrero"
+        },
+        {
+            "id": 2,
+            "name": "Diego",
+            "text": "Este es el texto que ha puesto Diego"
+        },
+        {
+            "id": 3,
+            "name": "Dani",
+            "text": "Este es el texto que ha puesto Dani"
+        }
+    ]
+}

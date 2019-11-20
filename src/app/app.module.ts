@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { DatosPersonalesComponent } from './mis-historias/datos-personales/datos
 import { MisCosasComponent } from './mis-cosas/mis-cosas.component';
 import { MisAmigosComponent } from './mis-amigos/mis-amigos.component';
 import { EventosComponent } from './eventos/eventos.component';
+import { MisPublicacionesComponent } from './mis-historias/mis-publicaciones/mis-publicaciones.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +22,14 @@ import { EventosComponent } from './eventos/eventos.component';
     DatosPersonalesComponent,
     MisCosasComponent,
     MisAmigosComponent,
-    EventosComponent
+    EventosComponent,
+    MisPublicacionesComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    routing
+    routing,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
